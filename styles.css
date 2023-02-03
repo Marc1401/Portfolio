@@ -1,0 +1,18 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Times New Roman';
+    color:black;
+}
+
+html, body {
+    /*margin and panding modify the margin */
+    margin: 0;
+    padding: 0;
+    
+}
+
+
+
+
+
+
