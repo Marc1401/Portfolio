@@ -11,7 +11,45 @@ html, body {
     
 }
 
+.nav ul{
+    margin: 0;
+}
 
+.nav li{
+    /* display elements in a horizontal way*/
+    display: inline;
+}
+
+.nav a{
+    display: inline-block;
+    padding: 4em;
+    color:azure;
+    /*remove underlines*/
+    text-decoration: none;
+}
+.main-nav{
+    text-align: center;
+    font-size: 2em;
+    font-weight: bolder;
+    
+}
+
+.main-nav li {
+    /*leaves space between items in the navigator*/
+    padding: 0 5%;
+}
+
+/* Hover helps to see which item we are currently seclecting*/
+.nav a:hover {
+    background-color: rgba(255, 255, 255, .3);
+}
+.main-header {
+    
+    background-image: url("avt.jpg");
+    backrground-size: cover;
+    
+    
+}
 
 
 
